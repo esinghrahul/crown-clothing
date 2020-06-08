@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import HomePage from './HomePage.component'
-import './HomePage.styles.scss'
+import HomePage from './pages/HomePage/HomePage.component'
+import './pages/HomePage/HomePage.styles.scss'
 
 function App() {
   return (
-    <div className="App">
       <HomePage />
-    </div>
   );
 }
 
